@@ -562,10 +562,16 @@ class SpecialCases {
 		case "inf-20100618":
 			return "https://maven.concern.i.ng/net/textilemc/intermediary/inf-20100618/inf-20100618.tiny";
 
+		case "1.4.7":
+		case "1.5.2":
 		case "1.6.4":
 		case "1.7.10":
 		case "1.8.9":
+		case "1.9.4":
+		case "1.10.2":
+		case "1.11.2":
 		case "1.12.2":
+		case "1.13.2":
 			return "https://github.com/Legacy-Fabric/Legacy-Intermediaries/raw/master/mappings/" + version + ".tiny";
 
 		default:
